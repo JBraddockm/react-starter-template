@@ -18,6 +18,7 @@ module.exports = {
 		'react/prop-types': 'off',
 		'react/react-in-jsx-scope': 'off',
 		'react/jsx-no-target-blank': 'off',
+		'prettier/prettier': 'error',
 		'react-refresh/only-export-components': [
 			'warn',
 			{ allowConstantExport: true },
