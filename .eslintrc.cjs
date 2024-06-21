@@ -24,7 +24,7 @@ module.exports = {
 		],
 		'no-relative-import-paths/no-relative-import-paths': [
 			'warn',
-			{ 'allowSameFolder': true, 'rootDir': 'src', 'prefix': '@' },
+			{ 'allowSameFolder': false, 'rootDir': 'src', 'prefix': '@' },
 		],
 		'simple-import-sort/imports': 'error',
 		'simple-import-sort/exports': 'error',
